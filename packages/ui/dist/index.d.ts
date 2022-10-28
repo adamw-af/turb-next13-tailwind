@@ -1,3 +1,5 @@
 declare const Button: () => JSX.Element;
 
-export { Button };
+declare function MyDropdown(): JSX.Element;
+
+export { Button, MyDropdown };

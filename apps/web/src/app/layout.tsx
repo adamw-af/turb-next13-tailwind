@@ -1,6 +1,8 @@
-import './global.css';
+import "./global.css";
 
-export default function RootLayout({ children }: {
+export default function RootLayout({
+  children,
+}: {
   children: React.ReactNode;
 }) {
   return (
@@ -8,7 +10,7 @@ export default function RootLayout({ children }: {
       <head>
         <title>Next.js</title>
       </head>
-      <body>{children}</body>
+      <body className="bg-orcaBlack500">{children}</body>
     </html>
   );
 }

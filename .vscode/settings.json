@@ -1,6 +1,18 @@
 {
-    "eslint.workingDirectories": [
-        "./apps/web",
-        "./packages/eslint-config-custom",
-    ],
+  "eslint.workingDirectories": [
+    "./apps/web",
+    "./packages/eslint-config-custom"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "tailwindCSS.experimental.configFile": "./packages/tailwind-config/tailwind.config.js"
 }
