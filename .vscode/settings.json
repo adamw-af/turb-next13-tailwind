@@ -1,0 +1,6 @@
+{
+    "eslint.workingDirectories": [
+        "./apps/web",
+        "./packages/eslint-config-custom",
+    ],
+}
