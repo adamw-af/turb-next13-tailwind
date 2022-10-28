@@ -28,7 +28,8 @@ module.exports = __toCommonJS(src_exports);
 var import_jsx_runtime = require("react/jsx-runtime");
 var Button = () => {
   return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-    children: "Boop"
+    className: "btn",
+    children: "Hello daisyUI"
   });
 };
 // Annotate the CommonJS export names for ESM import in node:

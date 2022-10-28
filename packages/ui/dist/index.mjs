@@ -2,7 +2,8 @@
 import { jsx } from "react/jsx-runtime";
 var Button = () => {
   return /* @__PURE__ */ jsx("button", {
-    children: "Boop"
+    className: "btn",
+    children: "Hello daisyUI"
   });
 };
 export {
